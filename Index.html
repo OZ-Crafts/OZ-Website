@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OZ — Coming Soon</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --marigold:#F5A623;
+    --denim:#3A5A9B;
+    --coral:#E8623D;
+    --mint:#DCEEE6;
+    --paper:#FBF8F2;
+    --ink:#5E5A50;
+  }
+  *{box-sizing:border-box;}
+  html{background:var(--paper);color-scheme:light;}
+  body{
+    margin:0;min-height:100vh;background:var(--paper);color:var(--ink);
+    font-family:'Inter',sans-serif;
+    display:flex;align-items:center;justify-content:center;
+    padding:24px;
+    text-align:center;
+  }
+  .wrap{max-width:480px;}
+  .oz-mark{
+    font-family:'Baloo 2',sans-serif;font-weight:800;font-size:56px;
+    margin-bottom:8px;
+  }
+  .oz-mark .o{color:var(--marigold);}
+  .oz-mark .z{color:var(--denim);}
+  h1{
+    font-family:'Baloo 2',sans-serif;font-weight:800;font-size:28px;
+    color:var(--denim);margin:12px 0 6px;letter-spacing:-0.01em;
+  }
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    background:var(--mint);color:#2C4577;
+    padding:6px 14px;border-radius:999px;font-weight:600;font-size:13px;
+    transform:rotate(-2deg);margin-bottom:6px;
+  }
+  p.lede{font-size:16px;color:var(--ink);margin:10px 0 26px;line-height:1.5;}
+  .btn{
+    display:inline-block;background:var(--coral);color:#fff;text-decoration:none;
+    padding:13px 26px;border-radius:12px;font-weight:700;font-size:15px;
+    box-shadow:0 4px 0 #C24E2F;
+  }
+  .dots{margin-top:30px;display:flex;gap:8px;justify-content:center;}
+  .dots span{width:8px;height:8px;border-radius:50%;background:var(--marigold);opacity:0.5;}
+  .dots span:nth-child(2){background:var(--denim);opacity:0.5;}
+  .dots span:nth-child(3){background:var(--coral);opacity:0.5;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="oz-mark"><span class="o">O</span><span class="z">Z</span></div>
+    <span class="eyebrow">North Vancouver, BC</span>
+    <h1>Something crafty is on the way.</h1>
+    <p class="lede">We're putting the finishing touches on OZ — craft club, craft nights, and custom prints. Check back soon, or reach out if you can't wait.</p>
+    <a class="btn" href="mailto:studio@ozcrafts.ca">studio@ozcrafts.ca</a>
+    <div class="dots"><span></span><span></span><span></span></div>
+  </div>
+</body>
+</html>
